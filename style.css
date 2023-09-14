@@ -1,13 +1,17 @@
 h1{
-    color: rgb(10, 10, 10);
+    color: #333;
     text-align: center;
     margin: 20px;
 }
-
+h2{
+    color: #333;
+    text-align: center;
+    margin: 20px;
+}
 body{
     width: 60% ;
     margin: 0 auto;
-    background-color: rgb(192, 189, 189)
+    background-color: #3498db
 }
 
 .btn{
@@ -18,4 +22,10 @@ body{
     font-size: 15px;
     width: 100%;
     margin-bottom: 5px;
+}
+
+main {
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
 }
