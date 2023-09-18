@@ -1,3 +1,4 @@
+
 h1{
     color: #333;
     text-align: center;
@@ -10,8 +11,9 @@ h2{
 }
 body{
     width: 60% ;
+    height: 70%;
     margin: 0 auto;
-    background-color: #3498db
+    background-color: #79d3ec;
 }
 
 .btn{
@@ -28,4 +30,16 @@ main {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 2px 5px black;
+    background-color: #25A3C5;
+    
+}
+
+@media screen and (max-width:350px){
+    h2{
+        font-size: 15px;
+    }
+    body{
+        width: 90%;
+       
+    }
 }
